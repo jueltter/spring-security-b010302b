@@ -18,7 +18,7 @@ spring init --type=gradle-project \
 --packaging=jar \
 --javaVersion=25 \
 --dependencies=web,security,devtools,data-jpa,h2,lombok
-unzip ./spring-security-b010302.zip -d spring-security-b010302
+unzip ./spring-security-b010302b.zip -d spring-security-b010302b
 ```
 
 ## Execution
