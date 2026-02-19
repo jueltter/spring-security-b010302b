@@ -1,16 +1,16 @@
-CREATE TABLE IF NOT EXISTS `public`.`users`
+CREATE TABLE IF NOT EXISTS `public`.`accounts`
 (
     `id` INT NOT NULL AUTO_INCREMENT,
-    `username` VARCHAR(45) NOT NULL,
-    `password` VARCHAR(45) NOT NULL,
-    `enabled` INT NOT NULL,
+    `alias` VARCHAR(45) NOT NULL,
+    `pass` VARCHAR(45) NOT NULL,
+    `active` INT NOT NULL,
     PRIMARY KEY (`id`)
     );
 
-CREATE TABLE IF NOT EXISTS `public`.`authorities`
+CREATE TABLE IF NOT EXISTS `public`.`roles`
 (
     `id` INT NOT NULL AUTO_INCREMENT,
-    `username` VARCHAR(45) NOT NULL,
-    `authority` VARCHAR(45) NOT NULL,
+    `alias` VARCHAR(45) NOT NULL,
+    `role` VARCHAR(45) NOT NULL,
     PRIMARY KEY (`id`)
     );

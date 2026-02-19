@@ -1,5 +1,5 @@
-INSERT INTO `public`.`authorities`(username, authority)
+INSERT INTO `public`.`roles`(alias, role)
 VALUES('john', 'write');
 
-INSERT INTO `public`.`users`(username, password, enabled)
+INSERT INTO `public`.`accounts`(alias, pass, active)
 VALUES('john', '12345', '1');
